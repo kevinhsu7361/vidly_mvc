@@ -23,7 +23,7 @@ namespace vidly_mvc
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/bootstrap-lolo.css",
                       "~/Content/site.css"));
         }
     }
