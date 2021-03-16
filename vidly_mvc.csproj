@@ -178,11 +178,24 @@
     <Compile Include="Migrations\202103150725404_InitialModel.Designer.cs">
       <DependentUpon>202103150725404_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103151351208_AddCustomersTable.cs" />
+    <Compile Include="Migrations\202103151351208_AddCustomersTable.Designer.cs">
+      <DependentUpon>202103151351208_AddCustomersTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103160711138_AddSubscribeAndBirthdayColumnToCustomersTable.cs" />
+    <Compile Include="Migrations\202103160711138_AddSubscribeAndBirthdayColumnToCustomersTable.Designer.cs">
+      <DependentUpon>202103160711138_AddSubscribeAndBirthdayColumnToCustomersTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103160744521_AddMembershipTypesTable.cs" />
+    <Compile Include="Migrations\202103160744521_AddMembershipTypesTable.Designer.cs">
+      <DependentUpon>202103160744521_AddMembershipTypesTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -266,6 +279,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202103150725404_InitialModel.resx">
       <DependentUpon>202103150725404_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103151351208_AddCustomersTable.resx">
+      <DependentUpon>202103151351208_AddCustomersTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103160711138_AddSubscribeAndBirthdayColumnToCustomersTable.resx">
+      <DependentUpon>202103160711138_AddSubscribeAndBirthdayColumnToCustomersTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103160744521_AddMembershipTypesTable.resx">
+      <DependentUpon>202103160744521_AddMembershipTypesTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
