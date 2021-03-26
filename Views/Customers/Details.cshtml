@@ -12,3 +12,5 @@
         <li>Birthdate: @Model.Birthdate.Value.ToShortDateString()</li>
     }
 </ul>
+
+<p>@Html.ActionLink("編輯", "Edit", "Customers", new { id = Model.Id }, new { @class = "btn btn-primary" })</p>

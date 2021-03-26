@@ -12,3 +12,5 @@
     <li>Date Added: @Model.DateAdded.ToLongDateString()</li>
     <li>Number in Stock: @Model.NumberInStock</li>
 </ul>
+
+<p>@Html.ActionLink("編輯", "Edit", "Movies", new { id = Model.Id }, new { @class = "btn btn-primary" })</p>
