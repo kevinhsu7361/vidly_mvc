@@ -15,7 +15,7 @@ namespace vidly_mvc.Models
         public byte DurationInMonths { get; set; }
         public byte DiscountRate { get; set; }
 
-        public static readonly byte Unknown = 0;
+        public static readonly byte Unknown = 0; // to avoid magic string
         public static readonly byte PayAsYouGo = 1;
     }
 }
