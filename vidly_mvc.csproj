@@ -230,6 +230,14 @@
     <Compile Include="Migrations\202103200256067_InsertGenresData.Designer.cs">
       <DependentUpon>202103200256067_InsertGenresData.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202104171246597_SeedUser.cs" />
+    <Compile Include="Migrations\202104171246597_SeedUser.Designer.cs">
+      <DependentUpon>202104171246597_SeedUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104250057159_AddPhoneColumnToRegister.cs" />
+    <Compile Include="Migrations\202104250057159_AddPhoneColumnToRegister.Designer.cs">
+      <DependentUpon>202104250057159_AddPhoneColumnToRegister.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -239,6 +247,7 @@
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Min18YearsIfAMember.cs" />
     <Compile Include="Models\Movie.cs" />
+    <Compile Include="Models\RoleName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\CustomerFormViewModel.cs" />
@@ -480,9 +489,10 @@
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Movies\Details.cshtml" />
-    <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Movies\List.cshtml" />
     <Content Include="Views\Customers\CustomerForm.cshtml" />
     <Content Include="Views\Movies\MovieForm.cshtml" />
+    <Content Include="Views\Movies\ReadOnlyList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -527,6 +537,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103200256067_InsertGenresData.resx">
       <DependentUpon>202103200256067_InsertGenresData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104171246597_SeedUser.resx">
+      <DependentUpon>202104171246597_SeedUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104250057159_AddPhoneColumnToRegister.resx">
+      <DependentUpon>202104250057159_AddPhoneColumnToRegister.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
