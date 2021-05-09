@@ -22,5 +22,6 @@ namespace vidly_mvc.Models
         public DateTime ReleaseDate { get; set; }
 
         public byte NumberInStock { get; set; }
+        public byte NumberAvailable { get; set; }
     }
 }
